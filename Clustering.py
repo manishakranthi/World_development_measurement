@@ -24,7 +24,7 @@ def cluster_prediction(input_data):
     
 def main():
         
-    st.title('KMeans Prediction Model')
+    st.title('World Development Measurement : K-means clustering')
     
     CO2_Emissions=st.text_input ('Enter CO2 Emissions')
     Energy_Usage=st.text_input ('Enter Energy Usage')
