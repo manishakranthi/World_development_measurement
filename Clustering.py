@@ -1,15 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar  3 17:41:01 2023
-
-@author: HP
-"""
 
 import pickle
 import streamlit as st
 import numpy as np
 
-with open('C:/Users/HP/Downloads/k_mean.pkl', 'rb') as file:
+with open('k_mean.pkl', 'rb') as file:
     kmeans_loaded = pickle.load(file)
 
 def cluster_prediction(input_data):
